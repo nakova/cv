@@ -1,0 +1,69 @@
+body {
+	background-image: radial-gradient( circle 1158px at 6.4% 48.8%,  rgba(195,241,245,1) 0%, rgba(255,255,255,1) 90.2% );
+	color: black;
+	font-family: 'Libre Baskerville', ;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: transparent;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.jumbotron {
+	background: transparent;
+}
+
+/* Image grid  start */
+
+.container {
+            background: transparent;
+        }
+        
+        .flex-column {
+            max-width: 260px;
+        }
+        
+        img {
+            margin: 5px;
+        }
+        
+        .scale {
+            transform: scaleY(1.05);
+            padding-top: 5px; 
+        }
+/* Image grid  end */
+
+#mt {
+	 margin-top: 150px;
+}
+#contacts {
+	margin-bottom: 150px;
+	text-align: center; 
+}
+i {
+	position: center;
+}
+.row {
+	line-height: 30px;
+}
+h4 {
+	line-height: 60px;
+	}

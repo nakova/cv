@@ -1,0 +1,230 @@
+<%- include("partials/header") %>
+
+ <section class="page__content" itemprop="text">
+ <div class="alert alert-primary" role="alert">
+  <p class="text-center">YELP CAMP</p>
+</div>       
+        <p>YelpCamp is a Node.js web application with RESTful routing project from the Udemy course - <a href="https://www.udemy.com/the-web-developer-bootcamp/">The Web Developer Bootcamp by Colt Steele</a></p>
+
+<h2 id="live-demo">Live Demo</h2>
+
+<p>To see the app in action, go to <a href="https://fierce-beach-84741.herokuapp.com/" target="_blank">Yelp Camp Violina Demo</a></p>
+
+<ul>
+  <li>Login username: <i>Guest1</i></li>
+  <li>Login password: <i>Guest1</i></li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>
+    <p>Authentication:</p>
+    <ul>
+      <li>
+        <p>User signup with username, password and invitation code</p>
+      </li>
+      <li>
+        <p>User login with username and password</p>
+      </li>
+      <li>
+        <p>Admin login with admin username and password</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Authorization:</p>
+    <ul>
+      <li>
+        <p>One cannot create new posts or view user profile without being authenticated</p>
+      </li>
+      <li>
+        <p>One cannot edit or delete existing posts and comments created by other users</p>
+      </li>
+      <li>
+        <p>Admin can manage all posts and comments</p>
+      </li>
+      <li>
+        <p>Admin can generate invitation code for user to sign up</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Functionalities of campground posts and comments:</p>
+    <ul>
+      <li>
+        <p>Create, view, edit and delete posts and comments</p>
+      </li>
+      <li>
+        <p>Upload campground photos from local</p>
+      </li>
+      <li>
+        <p>Display campground location on Google Maps</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Flash messages responding to users’ interaction with the app</p>
+  </li>
+  <li>
+    <p>Responsive web design</p>
+  </li>
+</ul>
+
+<h3 id="custom-enhancements">Custom Enhancements</h3>
+
+<ul>
+  <li>
+    <p>Embedded comment show page in single campground show page to look more user friendly</p>
+  </li>
+  <li>
+    <p>Changed comment post and put routes to redirect back to single campground show page</p>
+  </li>
+  <li>
+    <p>Used Google Fonts and Font Awesome instead default fonts</p>
+  </li>
+  <li>
+    <p>Used momentJS to show post and comment creation and update timestamp</p>
+  </li>
+  <li>
+    <p>Added Admin invitation code generation functionality</p>
+  </li>
+</ul>
+
+<h2 id="built-with">Built with</h2>
+
+<h3 id="front-end">Front-end</h3>
+
+<ul>
+  <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+  <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+  <li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap 4</a></li>
+</ul>
+
+<h3 id="back-end">Back-end</h3>
+
+<ul>
+  <li><a href="https://expressjs.com/">express</a></li>
+  <li><a href="https://www.mongodb.com/">mongoDB</a></li>
+  <li><a href="http://mongoosejs.com/">mongoose</a></li>
+  <li><a href="http://ejs.co/">ejs</a></li>
+  <li><a href="http://www.passportjs.org/">passport</a></li>
+  <li><a href="https://www.npmjs.com/package/passport-local">passport-local</a></li>
+  <li><a href="https://www.npmjs.com/package/passport-local-mongoose">passport-local-mongoose</a></li>
+  <li><a href="https://www.npmjs.com/package/body-parser">body-parser</a></li>
+  <li><a href="https://www.npmjs.com/package/express-session">express-session</a></li>
+  <li><a href="https://www.npmjs.com/package/method-override">method-override</a></li>
+  <li><a href="https://momentjs.com/">moment</a></li>
+  <li><a href="https://www.npmjs.com/package/connect-flash">connect-flash</a></li>
+  <li><a href="https://www.npmjs.com/package/node-geocoder">node-geocoder</a></li>
+  <li><a href="https://www.npmjs.com/package/dotenv">dotenv</a></li>
+  <li><a href="https://www.npmjs.com/package/cloudinary">cloudinary</a></li>
+  <li><a href="https://www.npmjs.com/package/multer">multer</a></li>
+  <li><a href="https://developers.google.com/maps/">Google Maps APIs</a></li>
+</ul>
+
+<h3 id="deployment">Deployment</h3>
+
+<ul>
+  <li><a href="https://www.heroku.com/">Heroku</a></li>
+</ul>
+
+</section>
+
+<section class="page__content" itemprop="text">
+	<div class="alert alert-primary" role="alert">
+  <p class="text-center">KITTEN SHOP</p>
+</div>
+        
+        <p>Kitten shop is a E-commerce Node.js web application the Udemy course - <a href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"> The Modern JavaScript Bootcamp course 2020 by Colt Steele</a></p>
+
+<h2 id="live-demo">Live Demo</h2>
+
+<p>To see the app in action, go to <a href="https://evening-forest-28786.herokuapp.com/" target="_blank">Kitten Shop Violina Demo</a></p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>
+    <p>Authentication:</p>
+    <ul>
+      <li>
+        <p>Admin signup with username and password</p>
+      </li>
+      <li>
+        <p>Admin login with username and password</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Authorization:</p>
+    <ul>
+      <li>
+        <p>Admin can delete kittens from the list</p>
+      </li>
+      <li>
+        <p>Admin can add new kittens in the list</p>
+      </li>
+      <li>
+        <p>Admin can edit kitten's list</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Functionalities of the app:</p>
+    <ul>
+      <li>
+        <p>Create, view, edit and delete kittens</p>
+      </li>
+      <li>
+        <p>Upload kittens photos from local</p>
+      </li>
+		<li>
+        <p>Add kittens to cart</p>
+      </li>
+		<li>
+        <p>Remove kittens from cart</p>
+      </li>
+		<li>
+        <p>Working with JSON responses</p>
+      </li>
+		<li>
+        <p>Interaction between client-side code and server-side code</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Responsive web design</p>
+  </li>
+</ul>
+
+<h2 id="built-with">Built with</h2>
+
+<h3 id="front-end">Front-end</h3>
+
+<ul>
+  <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+  <li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap 4</a></li>
+</ul>
+
+<h3 id="back-end">Back-end</h3>
+
+<ul>
+  <li><a href="https://expressjs.com/">express</a></li>
+  <li><a href="http://ejs.co/">ejs</a></li>
+  <li><a href="http://www.passportjs.org/">passport</a></li>
+  <li><a href="https://www.npmjs.com/package/body-parser">body-parser</a></li>
+</ul>
+
+<h3 id="deployment">Deployment</h3>
+
+<ul>
+  <li><a href="https://www.heroku.com/">Heroku</a></li>
+</ul>
+</section>
+<div class="alert alert-primary" role="alert">
+  	<p class="text-center">
+	  For more projects check my: <a href="https://github.com/nakova?tab=repositories" class="alert-link">Github</a> page.
+	</p>
+</div>
+<%- include("partials/footer") %>
